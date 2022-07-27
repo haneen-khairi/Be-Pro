@@ -795,6 +795,25 @@ textarea {
         float: none;
         text-align: center;
     }
+    .interface-img {
+        height: 500px;
+    }
+    .text-interface .inter-h1 {
+        font-family: fontme;
+        font-size: 5rem;
+    }
+    .text-interface h5 {
+        font-size: 1.5rem;
+        font-family: fontme;
+    }
+    .categories1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: nowrap;
+    }
 }
 
 input[type=checkbox]+label {
