@@ -18,33 +18,48 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
         integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="asset/css/main.css">
+    <link rel="stylesheet" href="asset/css/header.css">
+
 </head>
 
 <body>
     <!-- header -->
     <header class="header">
+        <div class="container">
         <nav class="nav-me">
             <a href="" class="logo"><img src="asset/img/logo.png" class="logo-nav" alt=""></a>
             <input class="menu-btn" type="checkbox" id="menu-btn" />
             <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
             <ul class="menu">
-                <li class="li-nav"> <a class="a-nav" href="#work">البرامج التدريبه</a></li>
+                <li class="li-nav"> <a class="a-nav" href="#work"> البرامج التدريبه <i class="fa-solid fa-angle-down"></i></a>
+                <!-- <ul>
+                    <li><a href="">  تصميم جرافيكي<img src="asset/img/icon/graphicdesign.svg" width="40" alt=""/></a> </li>
+                </ul> -->
+                </li> 
                 <li class="li-nav"><a class="a-nav" href="#about">الدورات</a></li>
                 <li class="li-nav"><a class="a-nav" href="#careers">الباقات</a></li>
                 <li class="li-nav"><a class="a-nav" href="#contact">تسجيل الدخول</a></li>
-            </ul>
-        </nav>
-    </header>
+                <li class="li-nav"><a class="a-nav" href="#careers">مستخدم جديد  </a></li>
 
+            </ul>
+            <div class="input-search">
+                <i class="fa-solid fa-magnifying-glass"></i> <input type="search" name="" placeholder="البحث في الدورات" id="">
+            </div>
+        </nav>
+    </div>
+    </header>
+   
+    
     <section class="sec1">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
                     <div class="interface-img " style="  background-image: url('');">
-                        <img src="asset/img/bg.png" alt="">
-                        <img src="asset/img/bg2.png" class="trans-img" alt="">
+                        <img src="asset/img/bghead.webp" alt="">
+                        <!-- <img src="asset/img/bg2.png" class="trans-img" alt=""> -->
 
                         <div class="text-center text-interface">
                             <h5>تعلم</h5>
@@ -1308,22 +1323,15 @@
            
         </div>
     </section>
-    <div class="div-svgs">
+    <!-- <div class="div-svgs">
 
-        <svg class="w-full svg-trans" xmlns:xlink="http://www.w3.org/1999/xlink" id="wave"
-            style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 170" version="1.1"
-            xmlns="http://www.w3.org/2000/svg">
-            <defs>
-                <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
-                    <stop stop-color="rgba(0, 0, 0, 1)" offset="0%" />
-                    <stop stop-color="rgba(111.338, 74.843, 218.892, 1)" offset="100%" />
-                </linearGradient>
-            </defs>
-            <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
-                d="M0,51L10,48.2C20,45,40,40,60,42.5C80,45,100,57,120,51C140,45,160,23,180,28.3C200,34,220,68,240,68C260,68,280,34,300,36.8C320,40,340,79,360,104.8C380,130,400,142,420,121.8C440,102,460,51,480,45.3C500,40,520,79,540,93.5C560,108,580,96,600,82.2C620,68,640,51,660,51C680,51,700,68,720,82.2C740,96,760,108,780,99.2C800,91,820,62,840,45.3C860,28,880,23,900,28.3C920,34,940,51,960,62.3C980,74,1000,79,1020,82.2C1040,85,1060,85,1080,85C1100,85,1120,85,1140,93.5C1160,102,1180,119,1200,113.3C1220,108,1240,79,1260,56.7C1280,34,1300,17,1320,11.3C1340,6,1360,11,1380,36.8C1400,62,1420,108,1430,130.3L1440,153L1440,170L1430,170C1420,170,1400,170,1380,170C1360,170,1340,170,1320,170C1300,170,1280,170,1260,170C1240,170,1220,170,1200,170C1180,170,1160,170,1140,170C1120,170,1100,170,1080,170C1060,170,1040,170,1020,170C1000,170,980,170,960,170C940,170,920,170,900,170C880,170,860,170,840,170C820,170,800,170,780,170C760,170,740,170,720,170C700,170,680,170,660,170C640,170,620,170,600,170C580,170,560,170,540,170C520,170,500,170,480,170C460,170,440,170,420,170C400,170,380,170,360,170C340,170,320,170,300,170C280,170,260,170,240,170C220,170,200,170,180,170C160,170,140,170,120,170C100,170,80,170,60,170C40,170,20,170,10,170L0,170Z" />
+        <svg class="w-full svg-trans" viewBox="0 0 1440 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M721 28.3988C527.5 70.958 207 123.411 0 9.34447V92H1440V53.9669C1266.5 -14.911 902 -11.4111 721 28.3988Z"
+                fill="#5496c8"></path>
         </svg>
 
-    </div>
+    </div> -->
     <section class="sec4">
         <div class="container-fluid">
             <div class="row">
@@ -1476,22 +1484,11 @@
         </div>
     </section>
     <div class="div-svgs">
-        <!-- <svg class="w-full svg-trans" viewBox="0 0 1440 92" fill="#21004c" xmlns="http://www.w3.org/2000/svg">
+       
+        <svg class="w-full svg-trans" viewBox="0 0 1440 92" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
                 d="M721 28.3988C527.5 70.958 207 123.411 0 9.34447V92H1440V53.9669C1266.5 -14.911 902 -11.4111 721 28.3988Z"
-                fill="#21004c"></path>
-        </svg> -->
-        <svg class="w-full svg-trans" xmlns:xlink="http://www.w3.org/1999/xlink" id="wave"
-            style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 230" version="1.1"
-            xmlns="http://www.w3.org/2000/svg">
-            <defs>
-                <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
-                    <stop stop-color="rgba(33, 0, 76, 1)" offset="0%" />
-                    <stop stop-color="rgba(111.338, 74.843, 218.892, 1)" offset="100%" />
-                </linearGradient>
-            </defs>
-            <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
-                d="M0,69L14.1,65.2C28.2,61,56,54,85,57.5C112.9,61,141,77,169,69C197.6,61,226,31,254,38.3C282.4,46,311,92,339,92C367.1,92,395,46,424,49.8C451.8,54,480,107,508,141.8C536.5,176,565,192,593,164.8C621.2,138,649,69,678,61.3C705.9,54,734,107,762,126.5C790.6,146,819,130,847,111.2C875.3,92,904,69,932,69C960,69,988,92,1016,111.2C1044.7,130,1073,146,1101,134.2C1129.4,123,1158,84,1186,61.3C1214.1,38,1242,31,1271,38.3C1298.8,46,1327,69,1355,84.3C1383.5,100,1412,107,1440,111.2C1468.2,115,1496,115,1525,115C1552.9,115,1581,115,1609,126.5C1637.6,138,1666,161,1694,153.3C1722.4,146,1751,107,1779,76.7C1807.1,46,1835,23,1864,15.3C1891.8,8,1920,15,1948,49.8C1976.5,84,2005,146,2019,176.3L2032.9,207L2032.9,230L2018.8,230C2004.7,230,1976,230,1948,230C1920,230,1892,230,1864,230C1835.3,230,1807,230,1779,230C1750.6,230,1722,230,1694,230C1665.9,230,1638,230,1609,230C1581.2,230,1553,230,1525,230C1496.5,230,1468,230,1440,230C1411.8,230,1384,230,1355,230C1327.1,230,1299,230,1271,230C1242.4,230,1214,230,1186,230C1157.6,230,1129,230,1101,230C1072.9,230,1045,230,1016,230C988.2,230,960,230,932,230C903.5,230,875,230,847,230C818.8,230,791,230,762,230C734.1,230,706,230,678,230C649.4,230,621,230,593,230C564.7,230,536,230,508,230C480,230,452,230,424,230C395.3,230,367,230,339,230C310.6,230,282,230,254,230C225.9,230,198,230,169,230C141.2,230,113,230,85,230C56.5,230,28,230,14,230L0,230Z" />
+                fill="#fff"></path>
         </svg>
     </div>
     <footer>
@@ -1541,7 +1538,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <div class="text-center">
+                    <div class=" copy-right text-center">
                         copy right
                     </div>
                 </div>
@@ -1563,7 +1560,28 @@
         integrity="sha512-9CWGXFSJ+/X0LWzSRCZFsOPhSfm6jbnL+Mpqo0o8Ke2SYr8rCTqb4/wGm+9n13HtDE1NQpAEOrMecDZw4FXQGg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
     <script>
+      $(document).ready(function() {
+
+function toggleSidebar() {
+  $(".button").toggleClass("active");
+  $("main").toggleClass("move-to-left");
+  $(".sidebar-item").toggleClass("active");
+}
+
+$(".button").on("click tap", function() {
+  toggleSidebar();
+});
+
+$(document).keyup(function(e) {
+  if (e.keyCode === 27) {
+    toggleSidebar();
+  }
+});
+
+});
+
         var $owl = $('.owl-carousel');
 
         $owl.children().each(function (index) {
