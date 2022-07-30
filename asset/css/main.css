@@ -457,6 +457,9 @@ i {
 .owl-nav{
     display: none;
 }
+.offcanvas-end{
+    color:#000;
+}
 .img-sli .img-labels .main-img {
     max-height: 350px;
 height:200px;
