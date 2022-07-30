@@ -673,13 +673,21 @@ footer {
     align-items: center;
     align-content: center;
 }
-
-.footer-logo .footer-social li {
+.footer-socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.footer-socials li {
     padding: 10px;
     color: #e83c46;
-
 }
-
+  
+.footer-socials li a i{
+font-size:30px;
+}
+  
 footer .footer-links1 li a {
     color: #e83c46;
 

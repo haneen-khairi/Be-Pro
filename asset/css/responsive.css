@@ -77,4 +77,12 @@
         background: linear-gradient(45deg, #214f79, #50a8ea,#288873,#c63c77);
         border-radius: 10px; 
     }
+    .owl-item.center>div {
+        cursor: auto;
+        margin: 0px;
+    }
+    .owl-item>div { 
+        margin: 6% 18%;
+ 
+    }
 }
