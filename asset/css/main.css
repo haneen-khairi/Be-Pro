@@ -792,19 +792,10 @@ textarea:valid~label {
     border-radius: 4px;
 }
 
-
-.mobileOnly{
-    display: none;
-}
-
 @media only screen and (max-width: 768px) {
     .styled-input {
         width: 100%;
     }
-    .mobileOnly{
-        display: block;
-    }
-            
 }
 
 .styled-input label {
