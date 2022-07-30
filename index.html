@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
         integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="asset/css/main.css">
     <link rel="stylesheet" href="asset/css/header.css">
@@ -29,40 +29,60 @@
     <!-- header -->
     <header class="header">
         <div class="container">
-        <nav class="nav-me">
-            <a href="" class="logo"><img src="asset/img/logo.png" class="logo-nav" alt=""></a>
-            <input class="menu-btn" type="checkbox" id="menu-btn" />
-            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-            <ul class="menu">
-                <li class="li-nav"> <a class="a-nav" href="#work"> البرامج التدريبه <i class="fa-solid fa-angle-down"></i></a>
-                <!-- <ul>
+            <nav class="nav-me">
+                <a href="" class="logo"><img src="asset/img/logo.png" class="logo-nav" alt=""></a>
+                <input class="menu-btn" type="checkbox" id="menu-btn" />
+                <label class="menu-icon" for="menu-btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"><span class="navicon"></span></label>
+                <ul class="menu">
+                    <li class="li-nav"> <a class="a-nav" href="#work"> البرامج التدريبه <i
+                                class="fa-solid fa-angle-down"></i></a>
+                        <!-- <ul>
                     <li><a href="">  تصميم جرافيكي<img src="asset/img/icon/graphicdesign.svg" width="40" alt=""/></a> </li>
                 </ul> -->
-                </li> 
-                <li class="li-nav"><a class="a-nav" href="#about">الدورات</a></li>
-                <li class="li-nav"><a class="a-nav" href="#careers">الباقات</a></li>
-                <li class="li-nav"><a class="a-nav" href="#contact">تسجيل الدخول</a></li>
-                <li class="li-nav"><a class="a-nav" href="#careers">مستخدم جديد  </a></li>
+                    </li>
+                    <li class="li-nav"><a class="a-nav" href="#about">الدورات</a></li>
+                    <li class="li-nav"><a class="a-nav" href="#careers">الباقات</a></li>
+                    <li class="li-nav"><a class="a-nav" href="#contact">تسجيل الدخول</a></li>
+                    <li class="li-nav"><a class="a-nav" href="#careers">مستخدم جديد </a></li>
 
-            </ul>
-            <div class="input-search">
-                <i class="fa-solid fa-magnifying-glass"></i> <input type="search" name="" placeholder="البحث في الدورات" id="">
-            </div>
-        </nav>
-    </div>
+                </ul>
+                <div class="input-search">
+                    <i class="fa-solid fa-magnifying-glass"></i> <input type="search" name=""
+                        placeholder="البحث في الدورات" id="">
+                </div>
+            </nav>
+        </div>
     </header>
-    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle right offcanvas</button>
 
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-      <div class="offcanvas-header">
-        <h5 id="offcanvasRightLabel">Offcanvas right</h5>
-        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
-      <div class="offcanvas-body">
-        ...
-      </div>
+    <div class="mobileOnly">
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <!-- your code here  -->
+                <ul class="menu">
+                    <li class="li-nav"> <a class="a-nav" href="#work"> البرامج التدريبه <i
+                                class="fa-solid fa-angle-down"></i></a>
+                        <!-- <ul>
+                <li><a href="">  تصميم جرافيكي<img src="asset/img/icon/graphicdesign.svg" width="40" alt=""/></a> </li>
+            </ul> -->
+                    </li>
+                    <li class="li-nav"><a class="a-nav" href="#about">الدورات</a></li>
+                    <li class="li-nav"><a class="a-nav" href="#careers">الباقات</a></li>
+                    <li class="li-nav"><a class="a-nav" href="#contact">تسجيل الدخول</a></li>
+                    <li class="li-nav"><a class="a-nav" href="#careers">مستخدم جديد </a></li>
+
+                </ul>
+                <!-- end  -->
+            </div>
+        </div>
+
     </div>
-    
+
     <section class="sec1">
         <div class="container-fluid">
             <div class="row">
@@ -1326,11 +1346,11 @@
                 </div>
                 <div class="col-md-12">
                     <div class="text-center">
-                <button class="submit-btns">show more</button>
-                </div>
+                        <button class="submit-btns">show more</button>
+                    </div>
                 </div>
             </div>
-           
+
         </div>
     </section>
     <!-- <div class="div-svgs">
@@ -1494,7 +1514,7 @@
         </div>
     </section>
     <div class="div-svgs">
-       
+
         <svg class="w-full svg-trans" viewBox="0 0 1440 92" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
                 d="M721 28.3988C527.5 70.958 207 123.411 0 9.34447V92H1440V53.9669C1266.5 -14.911 902 -11.4111 721 28.3988Z"
@@ -1531,7 +1551,7 @@
                 </div>
                 <div class="col-md-3">
 
-                    <ul  class="footer-links1">
+                    <ul class="footer-links1">
                         <li> <a href=""> عن بي برو</a></li>
                         <li> <a href="">اتصل بنا </a> </li>
                         <li> <a href="">الشروط والأحكام</a> </li>
@@ -1539,7 +1559,7 @@
                     </ul>
                 </div>
                 <div class="col-md-3">
-                    <ul  class="footer-links1">
+                    <ul class="footer-links1">
                         <li> <a href="">الدورات</a> </li>
                         <li> <a href="">الباقات</a> </li>
                         <li> <a href="">العروض</a> </li>
@@ -1572,25 +1592,25 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
     <script>
-      $(document).ready(function() {
+        $(document).ready(function () {
 
-function toggleSidebar() {
-  $(".button").toggleClass("active");
-  $("main").toggleClass("move-to-left");
-  $(".sidebar-item").toggleClass("active");
-}
+            function toggleSidebar() {
+                $(".button").toggleClass("active");
+                $("main").toggleClass("move-to-left");
+                $(".sidebar-item").toggleClass("active");
+            }
 
-$(".button").on("click tap", function() {
-  toggleSidebar();
-});
+            $(".button").on("click tap", function () {
+                toggleSidebar();
+            });
 
-$(document).keyup(function(e) {
-  if (e.keyCode === 27) {
-    toggleSidebar();
-  }
-});
+            $(document).keyup(function (e) {
+                if (e.keyCode === 27) {
+                    toggleSidebar();
+                }
+            });
 
-});
+        });
 
         var $owl = $('.owl-carousel');
 
@@ -1601,26 +1621,26 @@ $(document).keyup(function(e) {
         $owl.owlCarousel({
             center: true,
             loop: true,
-            items: 5, 
+            items: 5,
             rtl: true,
-            responsive:{
-        0:{
-            items:2,
-            nav:true
-        },
-        600:{
-            items:3,
-            nav:false
-        },
-        1000:{
-            items:5,
-            nav:true,
-            loop:true
-        }
-        
-        }
-        
-    });
+            responsive: {
+                0: {
+                    items: 2,
+                    nav: true
+                },
+                600: {
+                    items: 3,
+                    nav: false
+                },
+                1000: {
+                    items: 5,
+                    nav: true,
+                    loop: true
+                }
+
+            }
+
+        });
 
         $(document).on('click', '.owl-item>div', function () {
             // see https://owlcarousel2.github.io/OwlCarousel2/docs/api-events.html#to-owl-carousel
