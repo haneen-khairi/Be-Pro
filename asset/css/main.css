@@ -80,7 +80,7 @@ a:hover {
 /* header */
 
 .header {
-  
+
     /* background-color: #5b449f7a; */
     position: sticky;
     width: 100%;
@@ -98,14 +98,12 @@ a:hover {
 .header li a {
     display: block;
     padding: 20px 20px;
- 
+
     text-decoration: none;
 }
 
 .header li a:hover,
-.header .menu-btn:hover {
- 
-}
+.header .menu-btn:hover {}
 
 .header .logo {
     display: block;
@@ -115,7 +113,7 @@ a:hover {
     text-decoration: none;
 }
 
- 
+
 
 .header .menu {
     clear: both;
@@ -123,7 +121,7 @@ a:hover {
     transition: max-height .2s ease-out;
 }
 
- 
+
 
 .header .menu-icon {
     cursor: pointer;
@@ -162,7 +160,7 @@ a:hover {
     top: -5px;
 }
 
- 
+
 
 .header .menu-btn {
     display: none;
@@ -189,7 +187,7 @@ a:hover {
     top: 0;
 }
 
- 
+
 
 @media (min-width: 48em) {
     .header li {
@@ -237,12 +235,25 @@ a:hover {
 }
 
 .interface-img {
-
     height: 700px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
+.interface-imgs {
+    min-height: 400px;
+    background: url("https://images.pexels.com/photos/821754/pexels-photo-821754.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -407,12 +418,17 @@ i {
     border-radius: 10px;
     margin-top: 80px;
     border-bottom: 1px solid grey;
-    height: 600px;
+    height: 100%;
+    max-height: 474px;
 }
-
+.menu .li-nav .a-nav:hover{
+background:#f9f9f915;
+    transition: all 1s ease-in;
+}
 .img-sli:hover {
     /* background: linear-gradient(45deg, #00000082, transparent); */
     box-shadow: 1px 1px 10px #000;
+    
     cursor: pointer;
 }
 
@@ -454,15 +470,17 @@ i {
     justify-content: center;
     align-content: center;
 } */
-.owl-nav{
+.owl-nav {
     display: none;
 }
-.offcanvas-end{
-    color:#000;
+
+.offcanvas-end {
+    color: #000;
 }
+
 .img-sli .img-labels .main-img {
     max-height: 350px;
-height:200px;
+    height: 200px;
 }
 
 .img-sli .img-labels .on-sale {
@@ -661,7 +679,8 @@ footer {
     color: #e83c46;
 
 }
-footer .footer-links1 li a { 
+
+footer .footer-links1 li a {
     color: #e83c46;
 
 }
@@ -672,7 +691,7 @@ footer .footer-links1 li a {
 }
 
 .footer-links1 {
-    padding: 6px 90px 10px 10px ;
+    padding: 6px 90px 10px 10px;
     text-align: justify;
 }
 
@@ -680,7 +699,7 @@ footer .footer-links1 li a {
     font-size: 20px;
     padding-right: 50px;
     text-align: justify;
-    padding: 6px 70px 10px 10px ;
+    padding: 6px 70px 10px 10px;
 }
 
 .footer-links1 li a {
@@ -701,12 +720,14 @@ footer .footer-links1 li a {
     transition: all 1s ease-in-out;
     transform: scale(1.3);
 }
-footer .copy-right{
-color:#da2222;
-font-size:20px;
+
+footer .copy-right {
+    color: #da2222;
+    font-size: 20px;
 }
-.input-search input[type=search]{
-    height: 25px!important;
+
+.input-search input[type=search] {
+    height: 25px !important;
     width: 100%;
     position: relative;
     background: #e83c4600;
@@ -715,18 +736,21 @@ font-size:20px;
     border-color: #fff;
     text-align: start;
     border-bottom: 3px solid #fff;
-    font-size:20px;
+    font-size: 20px;
 }
-.input-search{
-    position:relative
+ 
+.input-search {
+    position: relative
 }
-.input-search i{
+
+.input-search i {
     position: absolute;
     left: 10px;
     font-size: 20px;
     color: #e83c46;
     top: 15px;
 }
+
 @keyframes scopeme {
 
     10% {
@@ -798,7 +822,7 @@ textarea {
     font-size: 1rem;
     background-color: #ffffff;
     color: rgb(0, 0, 0);
-    font-size:20px;
+    font-size: 20px;
     border-radius: 4px;
 }
 
@@ -851,33 +875,56 @@ textarea {
         0 1px 1px 0 rgba(0, 0, 0, 0.09);
 }
 
-@media (max-width: 768px) {
-    .submit-btn {
-        width: 100%;
-        float: none;
-        text-align: center;
-    }
-    .interface-img {
-        height: 500px;
-    }
-    .text-interface .inter-h1 {
-        font-family: fontme;
-        font-size: 5rem;
-    }
-    .text-interface h5 {
-        font-size: 1.5rem;
-        font-family: fontme;
-    }
-    .categories1 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-        flex-wrap: nowrap;
-    }
-}
 
+.submenu{
+    padding: 10px;
+    position: relative;
+    display: flex;
+    top: -16px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    border-radius: 14px;
+    justify-content: center;
+    align-items: flex-start;
+    background: linear-gradient(45deg, #214f79, #50a8ea,#288873,#c63c77);
+}
+.submenu li a img{
+    width:30px!important;
+}
+.submenu li {
+    height:50px;
+    display: block;
+    margin-bottom: 5px;
+}
+.submenu li:hover{
+     background-color: rgba(0, 0, 0, 0.112);
+ 
+}
+.submenu li a{ 
+ 
+
+}
+.submenu-hover:hover .sub-menu-ul{
+    display: block;
+}
+.sub-menu-ul i{
+    position: relative;
+    top: 1px;
+    right: 45%;
+    color: #726475;
+    font-size: 30px;
+    z-index: 111111;
+}
+.sub-menu-ul{
+    display: none;
+    position: absolute;
+    top: 76px;
+    /* background: linear-gradient(45deg, #214f79, #50a8ea,#288873,#c63c77); */
+    border-radius:10px;
+    /* padding:10px; */
+   
+}
 input[type=checkbox]+label {
     color: #ccc;
     font-style: italic;
@@ -956,15 +1003,18 @@ input[type=checkbox]:checked+label {
     text-align: justify;
     font-size: 1rem;
 }
-.sec-degree{
-    padding-top:150px;
-    padding-bottom:100px;
-    text-align:center;
+
+.sec-degree {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    text-align: center;
 }
-.card-degree{
-    padding:50px;
+
+.card-degree {
+    padding: 50px;
 }
-.submit-btns{
+
+.submit-btns {
     margin-top: 100px;
     padding: 10px 35px;
     /* border-radius: 13px; */
@@ -982,8 +1032,8 @@ input[type=checkbox]:checked+label {
     -webkit-transition: all 300ms ease;
     transition: all 300ms ease;
 }
- 
- 
+
+
 .submit-btns:hover {
     transform: translateY(3px);
     background-color: #ffffff;
@@ -991,14 +1041,17 @@ input[type=checkbox]:checked+label {
     box-shadow: 0 1px 1px 0 rgba(255, 255, 255, 0.1),
         0 1px 1px 0 rgba(0, 0, 0, 0.09);
 }
-.forgetpass{
-    margin:10px;
+
+.forgetpass {
+    margin: 10px;
 }
-.forgetpass a:hover{
+
+.forgetpass a:hover {
     color: #000000;
     text-shadow: 0 0 10px #ffffff;
 
 }
-.loginpage{
+
+.loginpage {
     background-image: linear-gradient(to bottom, #000000, #e83c46, #e83c46);
 }
