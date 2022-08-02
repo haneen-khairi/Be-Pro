@@ -85,4 +85,9 @@
         margin: 6% 18%;
  
     }
+    .input-container {
+        width: 650px;
+        max-width: 100%;
+     
+    }
 }

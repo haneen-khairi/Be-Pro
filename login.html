@@ -25,41 +25,131 @@
 
 </head>
 
-<body class="loginpage">
+<body class="login-bg">
     <!-- header -->
     <header class="header">
         <div class="container">
-        <nav class="nav-me">
-            <a href="" class="logo"><img src="asset/img/logo.png" class="logo-nav" alt=""></a>
-            <input class="menu-btn" type="checkbox" id="menu-btn" />
-            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-            <ul class="menu">
-                <li class="li-nav"> <a class="a-nav" href="#work"> البرامج التدريبه <i class="fa-solid fa-angle-down"></i></a>
-                <!-- <ul>
-                    <li><a href="">  تصميم جرافيكي<img src="asset/img/icon/graphicdesign.svg" width="40" alt=""/></a> </li>
-                </ul> -->
-                </li> 
-                <li class="li-nav"><a class="a-nav" href="#about">الدورات</a></li>
-                <li class="li-nav"><a class="a-nav" href="#careers">الباقات</a></li>
-                <li class="li-nav"><a class="a-nav" href="#contact">تسجيل الدخول</a></li>
-                <li class="li-nav"><a class="a-nav" href="#careers">مستخدم جديد  </a></li>
+            <nav class="nav-me">
+                <a href="" class="logo"><img src="asset/img/logo.png" class="logo-nav" alt=""></a>
+                <div class="input-search">
+                    <i class="fa-solid fa-magnifying-glass"></i> <input type="search" name=""
+                        placeholder="البحث في الدورات" id="">
+                </div>
+                <input class="menu-btn" type="checkbox" id="menu-btn" />
+                <label class="menu-icon" for="menu-btn">
+                    <div class="mobile-view">
+                        <button class="btn-mobile-svg" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
 
-            </ul>
-            <div class="input-search">
-                <i class="fa-solid fa-magnifying-glass"></i> <input type="search" name="" id="">
-            </div>
-        </nav>
-    </div>
+                            <svg width="30px" height="30px" viewBox="0 0 15 15" fill="#fff"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M1.5 3C1.22386 3 1 3.22386 1 3.5C1 3.77614 1.22386 4 1.5 4H13.5C13.7761 4 14 3.77614 14 3.5C14 3.22386 13.7761 3 13.5 3H1.5ZM1 7.5C1 7.22386 1.22386 7 1.5 7H13.5C13.7761 7 14 7.22386 14 7.5C14 7.77614 13.7761 8 13.5 8H1.5C1.22386 8 1 7.77614 1 7.5ZM1 11.5C1 11.2239 1.22386 11 1.5 11H13.5C13.7761 11 14 11.2239 14 11.5C14 11.7761 13.7761 12 13.5 12H1.5C1.22386 12 1 11.7761 1 11.5Z"
+                                    fill="#fff" />
+                            </svg>
+
+                        </button>
+
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                            aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                                <h5 id="offcanvasRightLabel"> <a href="" class="logo"><img src="asset/img/logo.png"
+                                            class="logo-nav-mobile" alt=""></a></h5>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="mobile-ul">
+                                    <li class=" submenu-hover"> <a class="a-nav " href="#work"> البرامج التدريبه <i
+                                                class="fa-solid fa-angle-down"></i></a>
+
+                                        <ul class="sub-menu-ul">
+                                            <div class="submenu">
+                                                <li><a href=""><img src="asset/img/icon/graphicdesign.svg" alt="" />
+                                                    تصميم جرافيكي </a> </li>
+                                            <li><a href=""><img src="asset/img/icon/uiux.svg" alt="" />
+                                                    UI / UX </a> </li>
+                                            <li><a href=""><img src="asset/img/icon/mont.svg" alt="" />
+                                                    مونتاج </a> </li>
+                                            <li><a href=""><img src="asset/img/icon/3d.svg" alt="" />
+                                                    ثري دي </a> </li>
+                                            <li><a href=""><img src="asset/img/icon/social.svg" alt="" />
+                                                    سوشل ميديا </a> </li>
+                                            <li><a href=""><img src="asset/img/icon/motiongraphic.svg" alt="" />
+                                                    موشن جرافيك </a> </li>
+                                            <li><a href=""><img src="asset/img/icon/creative.svg" alt="" />
+                                                    المحتوى الإبداعي </a> </li>
+                                            <li><a href=""><img src="asset/img/icon/drow.svg" alt="" />
+                                                    الرسم </a> </li>
+                                            </div>
+                                        </ul>
+
+                                    </li>
+                                    <li><a href="#about">الدورات</a></li>
+                                    <li><a href="#careers">الباقات</a></li>
+                                    <li><a href="#contact">تسجيل الدخول</a></li>
+                                    <li><a href="#careers">مستخدم جديد </a></li>
+                                </ul>
+                                <ul class="footer-socials">
+                                    <li> <a href=""> <i class="fa-brands fa-square-facebook"></i></a> </li>
+                                    <li> <a href=""><i class="fa-brands fa-instagram"></i> </a> </li>
+                                    <li> <a href=""><i class="fa-brands fa-square-twitter"></i></a> </li>
+                                    <li> <a href=""><i class="fa-brands fa-youtube"></i></a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </label>
+
+                <ul class="menu app-nav">
+                    <li class="li-nav submenu-hover"> <a class="a-nav " href="#work"> البرامج التدريبه <i
+                                class="fa-solid fa-angle-down"></i></a>
+
+                        <ul class="sub-menu-ul"><i class="fa-solid fa-caret-up"></i>
+                            <div class="submenu">
+                                <li><a href=""><img src="asset/img/icon/graphicdesign.svg" alt="" />
+                                        تصميم جرافيكي </a> </li>
+                                <li><a href=""><img src="asset/img/icon/uiux.svg" alt="" />
+                                        UI / UX </a> </li>
+                                <li><a href=""><img src="asset/img/icon/mont.svg" alt="" />
+                                        مونتاج </a> </li>
+                                <li><a href=""><img src="asset/img/icon/3d.svg" alt="" />
+                                        ثري دي </a> </li>
+                                <li><a href=""><img src="asset/img/icon/social.svg" alt="" />
+                                        سوشل ميديا </a> </li>
+                                <li><a href=""><img src="asset/img/icon/motiongraphic.svg" alt="" />
+                                        موشن جرافيك </a> </li>
+                                <li><a href=""><img src="asset/img/icon/creative.svg" alt="" />
+                                        المحتوى الإبداعي </a> </li>
+                                <li><a href=""><img src="asset/img/icon/drow.svg" alt="" />
+                                        الرسم </a> </li>
+                            </div>
+                        </ul>
+
+                    </li>
+                    <li class="li-nav"><a class="a-nav" href="#about">الدورات</a></li>
+                    <li class="li-nav"><a class="a-nav" href="#careers">الباقات</a></li>
+                    <li class="li-nav"><a class="a-nav" href="#contact">تسجيل الدخول</a></li>
+                    <li class="li-nav"><a class="a-nav" href="#careers">مستخدم جديد </a></li>
+
+                </ul>
+
+            </nav>
+        </div>
     </header>
-   
+
 
 
     <main>
-
+        <!-- <div class="interface-img login-bg">
+            <div class="text-center text-interface"> 
+                <h4 class="inter-h1">تسجيل الدخول </h4> 
+            </div>
+        </div> -->
         <section class="sec-contact">
             <div class="container">
                 <div class="row">
-                    <h1> تسجيل الدخول  </h1>
+                    <h1> تسجيل الدخول </h1>
                 </div>
                 
                 <div class="row input-container">
