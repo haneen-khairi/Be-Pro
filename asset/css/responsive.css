@@ -115,4 +115,27 @@
     .pl-4 {
         padding: 10px 0px!important;
     }
+    .sec1 {
+        margin-top: -100px;
+        padding-bottom: 187px;
+        background-image: linear-gradient(to bottom, #272251, #272251, #272251);
+        padding-top: 62px;
+    }
+    .sec2 {
+        margin-top: 0px;
+        padding-top: 0px;
+        background: #ffffff;
+        padding-bottom: 10px;
+    }
+    .sec3{
+        margin-top:0px;
+        margin-bottom:0px;
+    }
+    .sec4{
+        margin-top:0px;
+        margin-bottom:0px;
+    }
+    .owl-carousel.owl-rtl .owl-item {
+        float: left!important;
+    }
 }
