@@ -90,4 +90,29 @@
         max-width: 100%;
      
     }
+    .nav-border-sec {
+        background-color: #322e59;
+        width: 100%;
+        height: 80px;
+        margin-bottom: 30px;
+    }
+    .d-flex {
+        /* padding: 0px 40px; */
+        display: flex!important;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        height: 100%;
+        flex-direction: column;
+    }
+    .nav-border-sec {
+        background-color: #322e59;
+        width: 100%;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+    .pl-4 {
+        padding: 10px 0px!important;
+    }
 }
